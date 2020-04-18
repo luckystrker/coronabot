@@ -5,11 +5,29 @@
                 "action": {
                     "type": "text",
                     "payload": "{\"button\": \"1\"}",
-                    "label": "Информация"
+                    "label": "Ситуация в стране"
                 },
                 "color": "negative"
+            }
+        ],
+      [
+        {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"1\"}",
+                    "label": "Симптомы"
+                },
+                "color": "primary"
             },
             {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"2\"}",
+                    "label": "Мифы"
+                },
+                "color": "primary"
+            },
+                    {
                 "action": {
                     "type": "text",
                     "payload": "{\"button\": \"2\"}",
@@ -17,6 +35,7 @@
                 },
                 "color": "positive"
             }
-        ]
+      ]
+
     ]
 }
